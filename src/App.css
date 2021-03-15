@@ -1,0 +1,57 @@
+body{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.app{
+  width: 50%;
+  margin: 3em auto;
+  background: rgb(97, 96, 96);
+  padding: 1em;
+}
+
+.app > h2{
+  color: yellow;
+}
+
+table{
+  width: 50%;
+  border: 1px solid white;
+  padding: .5em;
+}
+
+form > p{
+  font-size: small;
+  outline: none;
+  background: rgba(255, 0, 0, 1);
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding: .3em 1em;
+}
+
+#button{
+  cursor: pointer;
+}
+
+input{
+  outline: none;
+  padding: .5em 1em;
+}
+
+button,input[type='submit'] {
+  outline: none;
+  border: none;
+  padding: .5em 1em;
+  transition: background 150ms;
+  cursor: pointer;
+  color: rgb(97, 96, 96);
+}
+
+button:hover,input[type='submit']:hover{
+  background: red;
+  color:white
+}
+
+
